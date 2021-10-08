@@ -4,7 +4,7 @@ export default class About extends Component {
     render() {
         return (
             <div>
-            
+            {/**this is the Slaiderss */}
                       <Carousel fade>
                       <Carousel.Item>
                         <img
@@ -51,10 +51,11 @@ export default class About extends Component {
 
                   
 
-
+{/**this is the Cards */}
 
                     <Container>
               <Row>
+              {/**this is my card */}
                 <Col xs><Card border="primary" style={{ width: '18rem' }}>
                         <Button variant="outline-dark"><Card.Header>My Favourite</Card.Header></Button> 
                         <Card.Body><div className="img-wrapper3"><Card.Img src="./imges/me.jpg" alt="" className="hover-zoom3"/></div>
@@ -63,7 +64,9 @@ export default class About extends Component {
                             I'm Rohan Mesto and I love the life & Riding Bike & Walking long distances & Swimming & martial arts.
                           </Card.Text>
                         </Card.Body>
-                      </Card></Col>
+                      </Card>
+                      {/**this is my card */}
+                      </Col>
                 <Col xs={{ order: 12 }}><Card border="primary" style={{ width: '18rem' }}>
                         <Button variant="outline-info"><Card.Header>Developer</Card.Header></Button>  
                         <Card.Body><div className="img-wrapper4"><Card.Img src="./imges/laptop4.jpg" alt="" className="hover-zoom4"/></div>

@@ -6,7 +6,7 @@ BrowserRouter,
 Switch,
 Link,
 Route
-} from "react-router-dom"
+} from "react-router-dom";
 import About from "./About";
 import Contact from "./Contact";
 import Home from "./Home";
@@ -16,6 +16,9 @@ export default class NavBarComp extends Component {
         return (
             <BrowserRouter>
             <div>
+
+            {/**this is the NavBar */}
+
             <Navbar collapseOnSelect expand="lg" bg="black" variant="dark">
       <Container>
       <Navbar.Brand><h2>RM</h2></Navbar.Brand>
@@ -37,6 +40,10 @@ export default class NavBarComp extends Component {
       </Container>
     </Navbar>
               </div>
+
+
+      {/**this is the Router */}
+
               <div>
               <Switch>
             

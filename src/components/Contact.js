@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+
 import { AiFillFacebook,AiFillGithub,AiFillInstagram,AiOutlineMail,AiOutlinePhone } from 'react-icons/ai';
 export default class Contact extends Component {
     render() {
@@ -6,7 +7,8 @@ export default class Contact extends Component {
     
 <div>
 
-            
+            {/*This is the contact */}
+
                <h1>Contact</h1>
                <hr/>
                <p>You can call or whatsapp me at:</p>
@@ -19,20 +21,23 @@ export default class Contact extends Component {
                 <hr/>
                 <p>Follow me on:</p>
                 <hr/>   
+
+                {/**this is the Icons */}
+
                 <i class="fa fa-whatsapp" aria-hidden="true"></i>
-            <a href="https://www.facebook.com/" target="_blank" rel="noreferrer">
+            <a href="https://www.facebook.com/Rohan.Mesto/" target="_blank" rel="noreferrer">
             <AiFillFacebook size="2em" color="blue" /> 
             </a>
                
-            <a href="https://github.com/" target="_blank" rel="noreferrer">
+            <a href="https://github.com/rohanmesto" target="_blank" rel="noreferrer">
                 <AiFillGithub size="2em" color="black"/>
             </a>
 
-            <a href="https://www.instagram.com/" target="_blank" rel="noreferrer"> 
+            <a href="https://www.instagram.com/rohanmisto/" target="_blank" rel="noreferrer"> 
                 <AiFillInstagram size="2em" color="purple"/>
                 </a>
 
-                <a href="https://mail.google.com/mail/u/0/#inbox" target="_blank" rel="noreferrer">
+                <a href="rohanmisto12@gmail.com" target="_blank" rel="noreferrer">
                 <AiOutlineMail size="2em"/>
               </a>
 
