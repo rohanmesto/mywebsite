@@ -4,6 +4,7 @@ export default class About extends Component {
     render() {
         return (
             <div>
+            
                       <Carousel fade>
                       <Carousel.Item>
                         <img

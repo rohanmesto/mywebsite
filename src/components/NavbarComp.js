@@ -2,10 +2,10 @@ import React, { Component } from 'react';
 import {Navbar,Container,Nav} from 'react-bootstrap'
 
 import {
-BrowserRouter as Router,
+BrowserRouter,
 Switch,
-Route,
-Link
+Link,
+Route
 } from "react-router-dom"
 import About from "./About";
 import Contact from "./Contact";
@@ -14,7 +14,7 @@ import Footer from "./Footer";
 export default class NavBarComp extends Component {
     render() {
         return (
-            <Router>
+            <BrowserRouter>
             <div>
             <Navbar collapseOnSelect expand="lg" bg="black" variant="dark">
       <Container>
@@ -56,7 +56,7 @@ export default class NavBarComp extends Component {
               <Footer />
               </div>
               
-              </Router>
+              </BrowserRouter>
             
           );
         }
