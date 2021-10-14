@@ -21,7 +21,7 @@ export default class NavBarComp extends Component {
 
             <Navbar collapseOnSelect expand="lg" bg="black" variant="dark">
       <Container>
-      <Navbar.Brand><h2>RM</h2></Navbar.Brand>
+      <Navbar.Brand><img src="public/images/logorm.png" alt=""/></Navbar.Brand>
       <Navbar.Toggle aria-controls="responsive-navbar-nav" />
       <Navbar.Collapse id="responsive-navbar-nav">
         <Nav className="me-auto">

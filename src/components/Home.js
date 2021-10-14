@@ -1,42 +1,80 @@
-import React, { Component } from 'react'
-import { Carousel} from 'react-bootstrap'
-import { Card ,CardGroup,Button} from 'react-bootstrap'
+import React, { Component } from 'react';
+import { Card, CardGroup, Button, Carousel} from 'react-bootstrap';
 
-export default class Home extends Component {
-    
+export default class Home extends Component {    
   render() {
     return (
       <div>
-        <Carousel>
+      
+              {/**This is the first Home Carousel */}
+                <Carousel fade>
             <Carousel.Item>
-            <img src="./imges/laptop4.jpg" alt="this is the first" className="qw"/>
-            <Carousel.Caption>
-                <h3>Do you want to be a developer? </h3>
-            </Carousel.Caption>
+              <img
+                className="d-block w-100"
+                src="./images/laptop3.jpg"
+                alt=""
+              />
+              <Carousel.Caption>
+                <h3>First slide label</h3>
+                <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+              </Carousel.Caption>
             </Carousel.Item>
-            <Carousel.Item>
-            <img src="./imges/laptop3.jpg" alt="this is the socend" className="qe"/>
-            <Carousel.Caption>
-                <h3>Are you interested in programming? </h3>
-            </Carousel.Caption>
-                </Carousel.Item>
-                <Carousel.Item>
-                <img src="./imges/the.jpg" alt="this is the thired"className="qr"/>
-                <Carousel.Caption>
-                <h3>Have you worked with coding before? </h3>
-            </Carousel.Caption>
-                </Carousel.Item>
-                </Carousel>
 
-          <h3>Welcome to my home </h3>
+          {/**This is the second Home Carousel */}
+
+            <Carousel.Item>
+              <img
+                className="d-block w-100"
+                src="./images/laptop4.jpg"
+                alt=""
+              />
+
+              <Carousel.Caption>
+                <h3>Second slide label</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              </Carousel.Caption>
+            </Carousel.Item>
+
+          {/**This is the third Home Carousel */}
+
+            <Carousel.Item>
+              <img
+                className="d-block w-100"
+                src="./images/softer3.jpeg"
+                alt=""
+              />
+
+              <Carousel.Caption>
+                <h3>Second slide label</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              </Carousel.Caption>
+            </Carousel.Item>
+
+         {/**This is the fourth Home Carousel */}
+
+            <Carousel.Item>
+              <img
+                className="d-block w-100"
+                src="./images/book.jpg"
+                alt=""
+              />
+
+              <Carousel.Caption>
+                <h3>Third slide label</h3>
+                <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+              </Carousel.Caption>
+            </Carousel.Item>
+          </Carousel>
+
+
+          <h3>Welcome to my home</h3>
+
+          {/**This the first Home Card - HTML*/}
           
                     <CardGroup>
-
-
-
             <Card>
             <div className="img-wrapper">
-                <Card.Img src="./imges/myhtml2.jpg" alt="" className="hover-zoom"/>
+                <Card.Img src="./imges/myhtml2.jpg" alt="image" className="hover-zoom"/>
                 </div>
                 
                 <Card.Body>
@@ -49,6 +87,8 @@ export default class Home extends Component {
                 
                 </Card.Footer>
             </Card>
+
+            {/**This is the second Home Card - CSS */}
            
             <Card>
             <div  className="img-wrapper1">
@@ -65,6 +105,9 @@ export default class Home extends Component {
                 </Card.Footer>
             </Card>
             <br />
+
+           {/**This is the third Home Card - Java */}
+
             <Card>
             <div  className="img-wrapper2">
                 <Card.Img variant="top" src="./imges/myjava4.jpg" alt="" className="hover-zoom2"/>

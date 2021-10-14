@@ -12,7 +12,7 @@ const Footer = () => {
                 <h4>Rohan Mesto</h4>
                  {/**this is the Footer Contact */}
                 <ul className="list-unstyled">
-                    <li>+961 76-153-095</li>
+                    
                     <li>Beirut,Lebanon</li>
                     <li>Mar Charbel,Saint Rita Street,Bourj Hammoud</li>
                 </ul>

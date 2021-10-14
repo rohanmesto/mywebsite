@@ -1,6 +1,14 @@
 import React, { Component } from 'react'
 
-import { AiFillFacebook,AiFillGithub,AiFillInstagram,AiOutlineMail,AiOutlinePhone } from 'react-icons/ai';
+import { 
+    AiFillFacebook,
+    AiFillGithub,
+    AiFillInstagram,
+    AiOutlineMail,
+    AiOutlineWhatsApp
+} from 'react-icons/ai';
+
+
 export default class Contact extends Component {
     render() {
         return (
@@ -37,16 +45,18 @@ export default class Contact extends Component {
                 <AiFillInstagram size="2em" color="purple"/>
                 </a>
 
-                <a href="rohanmisto12@gmail.com" target="_blank" rel="noreferrer">
+                <a href="mailto:rohanmisto12@gmail.com" target="_blank" rel="noreferrer">
                 <AiOutlineMail size="2em"/>
               </a>
 
-              <a href="tel:+961 76153095" target="_blank" rel="noreferrer">
-                <AiOutlinePhone size="2em" color="black"/>
-                </a>
+              
                
-    <hr/>
+                <a href="tel:+961 76153095" target="_blank" rel="noreferrer">
+                <AiOutlineWhatsApp size="2em" color="green"/>
+                </a>
+    <hr/> 
     <br/>
+    
               
                     </div>
         ) 
