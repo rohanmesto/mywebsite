@@ -1,6 +1,12 @@
 import React, { Component } from 'react';
 import { Card, CardGroup, Button, Carousel} from 'react-bootstrap';
-
+import Rohan1 from '../images/laptop3.jpg';
+import Rohan2 from '../images/softer3.jpeg';
+import Rohan3 from '../images/book.jpg'
+import Rohan4 from '../images/laptop4.jpg'
+import Html from '../images/myhtml2.jpg'
+import Css from '../images/mycss2.jpg'
+import Java from '../images/myjava4.jpg'
 export default class Home extends Component {    
   render() {
     return (
@@ -9,74 +15,51 @@ export default class Home extends Component {
               {/**This is the first Home Carousel */}
                 <Carousel fade>
             <Carousel.Item>
-              <img
-                className="d-block w-100"
-                src="./images/laptop3.jpg"
-                alt=""
-              />
+              <img src={Rohan1} alt="" className="qt"/>
               <Carousel.Caption>
-                <h3>First slide label</h3>
-                <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                <h3>Nothing is impossible in this life!</h3>
               </Carousel.Caption>
             </Carousel.Item>
 
           {/**This is the second Home Carousel */}
 
             <Carousel.Item>
-              <img
-                className="d-block w-100"
-                src="./images/laptop4.jpg"
-                alt=""
-              />
-
+              <img className="qw" src={Rohan2}  alt=""/>
               <Carousel.Caption>
-                <h3>Second slide label</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <h3>Be yourself and don't care about people!</h3>
               </Carousel.Caption>
             </Carousel.Item>
 
           {/**This is the third Home Carousel */}
 
             <Carousel.Item>
-              <img
-                className="d-block w-100"
-                src="./images/softer3.jpeg"
-                alt=""
-              />
-
+              <img className="qe" src={Rohan3} alt=""/>
               <Carousel.Caption>
-                <h3>Second slide label</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <h3>Believe that God will change your life</h3>
               </Carousel.Caption>
             </Carousel.Item>
 
          {/**This is the fourth Home Carousel */}
 
             <Carousel.Item>
-              <img
-                className="d-block w-100"
-                src="./images/book.jpg"
-                alt=""
-              />
-
+              <img className="qr" src={Rohan4} alt=""/>
               <Carousel.Caption>
-                <h3>Third slide label</h3>
-                <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                <h3>Work hard because nothing is easy!</h3>
               </Carousel.Caption>
             </Carousel.Item>
           </Carousel>
 
-
+        
           <h3>Welcome to my home</h3>
-
+        
           {/**This the first Home Card - HTML*/}
           
                     <CardGroup>
+
             <Card>
             <div className="img-wrapper">
-                <Card.Img src="./imges/myhtml2.jpg" alt="image" className="hover-zoom"/>
+                <Card.Img src={Html} alt="image" className="hover-zoom"/>
                 </div>
-                
                 <Card.Body>
                 <Card.Title>HTML</Card.Title>
                 <Card.Text>
@@ -84,7 +67,6 @@ export default class Home extends Component {
                 </Card.Text><a href="https://teamtreehouse.com/tracks/learn-html-2" target="_blank" rel="noreferrer"><Button variant="outline-danger">Click here for more</Button></a>
                 </Card.Body>
                 <Card.Footer>
-                
                 </Card.Footer>
             </Card>
 
@@ -92,7 +74,7 @@ export default class Home extends Component {
            
             <Card>
             <div  className="img-wrapper1">
-                <Card.Img variant="top" src="./imges/mycss2.jpg" alt="" className="hover-zoom1" />
+                <Card.Img variant="top" src={Css} alt="" className="hover-zoom1" />
                 </div>
                 <Card.Body>
                 <Card.Title>CSS</Card.Title>
@@ -101,7 +83,6 @@ export default class Home extends Component {
                 </Card.Text><a href="https://teamtreehouse.com/tracks/design-skills-for-web-developers" target="_blank" rel="noreferrer"><Button variant="outline-primary">Click here for more</Button></a>
                 </Card.Body>
                 <Card.Footer>
-                
                 </Card.Footer>
             </Card>
             <br />
@@ -110,7 +91,7 @@ export default class Home extends Component {
 
             <Card>
             <div  className="img-wrapper2">
-                <Card.Img variant="top" src="./imges/myjava4.jpg" alt="" className="hover-zoom2"/>
+                <Card.Img variant="top" src={Java} alt="" className="hover-zoom2"/>
                 </div>
                 <Card.Body>
                 <Card.Title>JavaScript</Card.Title>
@@ -119,7 +100,6 @@ export default class Home extends Component {
                 </Card.Text><a href="https://teamtreehouse.com/tracks/beginning-javascript" target="_blank" rel="noreferrer"><Button variant="outline-warning">Click here for more</Button></a>
                 </Card.Body>
                 <Card.Footer>
-                
                 </Card.Footer>
             </Card>
             </CardGroup>

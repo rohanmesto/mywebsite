@@ -1,82 +1,51 @@
-.html {
-        background-color: rgb(79, 79, 109);
-}
-.css {
-        background-color:rgba(65, 125, 139, 0.616);
-}
-.java {
-        background-color:rgb(65, 125, 139);
-}
+
+
 .qw {
         width: 100%;
-        height: 89vh;
+        height: 86vh;
 }
 .qe {
         width: 100%;
-        height: 89vh;
+        height: 86vh;
 }
 .qr {
         width: 100%;
-        height: 89vh;
+        height: 86vh;
 }
-
-
-
-.me1 {
+.qt {
         width: 100%;
-        height: 89vh;
+        height: 86vh;
 }
-.right {
-top:0%;
-left:0%;
-right:30%;
-bottom:0%;
+.qy {
+        width: 100%;
+        height: 86vh;
 }
-.deve {
-top:auto;
-left:30px;
-right:30%;
-bottom:auto;
+.qu {
+        width: 100%;
+        height: 86vh;
 }
-.semon {
-        margin-top: 10px;
+.qi {
+        width: 100%;
+        height: 86vh;
+}
+.qo {
+        width: 100%;
+        height: 86vh;
 }
 
-.but1 {
-background-color:rgba(13, 55, 70, 0.301);
-}
-.but2 {
-        background-color:rgba(13, 55, 70, 0.301);
-}
-.but3 {
-        background-color:rgba(13, 55, 70, 0.301);
-}
 
-.leban {
-        width: 100%;
-        height: 89vh;
-}
-.sirya {
-        width: 100%;
-        height: 89vh;
-}
-.erbil {
-        width: 100%;
-        height: 89vh;
-}
-.lap4 {
-        width:30deg;
-        height: 4px;
-}
+
+
+
 .img-wrapper {
         overflow:hidden;
         height:auto;
-        width:auto;
-       
+        width:auto;       
 }
 img.hover-zoom:hover {
         transform: scale(1.1);
 }
+
 
 .img-wrapper1 {
         overflow:hidden;

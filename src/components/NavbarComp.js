@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import {Navbar,Container,Nav} from 'react-bootstrap'
-
+import Logo from '../images/logorm.png'
 import {
 BrowserRouter,
 Switch,
@@ -19,9 +19,13 @@ export default class NavBarComp extends Component {
 
             {/**this is the NavBar */}
 
-            <Navbar collapseOnSelect expand="lg" bg="black" variant="dark">
+      <Navbar collapseOnSelect expand="lg" bg="black" variant="dark" >
       <Container>
-      <Navbar.Brand><img src="./images/logorm.png" alt="rm"/></Navbar.Brand>
+
+
+      <Navbar.Brand> <img src={Logo} alt="" className="roho"/></Navbar.Brand>
+
+
       <Navbar.Toggle aria-controls="responsive-navbar-nav" />
       <Navbar.Collapse id="responsive-navbar-nav">
         <Nav className="me-auto">
