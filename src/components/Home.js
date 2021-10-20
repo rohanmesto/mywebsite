@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import { Card, CardGroup, Button, Carousel} from 'react-bootstrap';
+
+/**this is the images import */
 import Rohan1 from '../images/laptop3.jpg';
 import Rohan2 from '../images/softer3.jpeg';
 import Rohan3 from '../images/book.jpg'
@@ -21,8 +23,8 @@ export default class Home extends Component {
               </Carousel.Caption>
             </Carousel.Item>
 
-          {/**This is the second Home Carousel */}
 
+          {/**This is the second Home Carousel */}
             <Carousel.Item>
               <img className="qw" src={Rohan2}  alt=""/>
               <Carousel.Caption>
@@ -30,8 +32,8 @@ export default class Home extends Component {
               </Carousel.Caption>
             </Carousel.Item>
 
-          {/**This is the third Home Carousel */}
 
+          {/**This is the third Home Carousel */}
             <Carousel.Item>
               <img className="qe" src={Rohan3} alt=""/>
               <Carousel.Caption>
@@ -39,8 +41,8 @@ export default class Home extends Component {
               </Carousel.Caption>
             </Carousel.Item>
 
-         {/**This is the fourth Home Carousel */}
 
+         {/**This is the fourth Home Carousel */}
             <Carousel.Item>
               <img className="qr" src={Rohan4} alt=""/>
               <Carousel.Caption>
@@ -51,11 +53,10 @@ export default class Home extends Component {
 
         
           <h3>Welcome to my home</h3>
-        
-          {/**This the first Home Card - HTML*/}
           
+        
+          {/**This the first Home Card - HTML*/} 
                     <CardGroup>
-
             <Card>
             <div className="img-wrapper">
                 <Card.Img src={Html} alt="image" className="hover-zoom"/>
@@ -70,8 +71,8 @@ export default class Home extends Component {
                 </Card.Footer>
             </Card>
 
+
             {/**This is the second Home Card - CSS */}
-           
             <Card>
             <div  className="img-wrapper1">
                 <Card.Img variant="top" src={Css} alt="" className="hover-zoom1" />
@@ -87,8 +88,8 @@ export default class Home extends Component {
             </Card>
             <br />
 
-           {/**This is the third Home Card - Java */}
 
+           {/**This is the third Home Card - Java */}
             <Card>
             <div  className="img-wrapper2">
                 <Card.Img variant="top" src={Java} alt="" className="hover-zoom2"/>

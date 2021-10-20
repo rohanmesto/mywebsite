@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import { Card, Carousel, Container, Row, Col, Button } from 'react-bootstrap'
+
+/** This is the images import */
 import Rohan5 from '../images/softer2.jpeg'
 import Rohan6 from '../images/softer1.jpeg'
 import Rohan7 from '../images/lebanon.jpg'
@@ -38,7 +40,7 @@ export default class About extends Component {
             <Carousel.Item>
               <img className="qu" src={Rohan5} alt=""/>
               <Carousel.Caption>
-                <h3>DON'T GIV UP!</h3>
+                <h3>DON'T GEV UP!</h3>
               </Carousel.Caption>
             </Carousel.Item>
 
@@ -85,6 +87,7 @@ export default class About extends Component {
               </Card.Text>
             </Card.Body>
           </Card></Col>
+          <br/>
 
 
             {/**this card talk about me as a developer */}
@@ -93,10 +96,11 @@ export default class About extends Component {
             <Card.Img variant="top" src={Rohan10} className="hover-zoom4"/>
             <Card.Body>
               <Card.Text>
-               I start to learn coding in 2021 by Horizons. I stady Full Sack JavaScript by Teamtreehous and Databases using SQL and PHPmyadment! and web design and many more!
+               I start to learn coding in 2021 by Horizons. I study Full Sack JavaScript by Teamtreehous and I learnt Databases using SQL also  webs designer and many more from the coding skills!
               </Card.Text>
             </Card.Body>
           </Card></Col>
+          <br/>
 
 
                 {/**This is card talk about my facourite things! */}
@@ -105,7 +109,7 @@ export default class About extends Component {
             <Card.Img variant="top" src={Rohan9} className="hover-zoom5"/>
             <Card.Body>
               <Card.Text>
-               I have tremendous energy to do many things in this life!. I like to try and learn and taste many things!. I love to do sport and workout  
+               I born in 28/11/2002 I have tremendous energy to do many things in this life!. I like to try and learn many things!. I love to do sport and workout  
               </Card.Text>
             </Card.Body>
           </Card></Col>
@@ -114,7 +118,7 @@ export default class About extends Component {
 
           <br/>
 
-                                          
+                               {/**this card talk about lebanon */}           
                   <Container>
           <Row>
             <Col xs={{ order: 'last' }}><Card style={{ width: '18rem' }} className="img-wrapper6">
@@ -122,31 +126,32 @@ export default class About extends Component {
           <Card.Img variant="top" src={Rohan11} className="hover-zoom6"/>
           <Card.Body>
             <Card.Text>
-              Some quick example text to build on the card title and make up the bulk of
-              the card's content.
+              I came to Lebanon with my parents in 2013 until now!. I grow up in beirut till 2020 When my parents left me!
             </Card.Text>
           </Card.Body>
         </Card></Col>
+        <br/>
 
+            {/**this card talk about syria */}
             <Col xs>
             <Card style={{ width: '18rem' }} className="img-wrapper7">
             <Button variant="outline-danger"><Card.Title>Syria</Card.Title></Button>
           <Card.Img variant="top" src={Rohan13} className="hover-zoom7"/>
           <Card.Body>       
             <Card.Text>
-              Some quick example text to build on the card title and make up the bulk of
-              the card's content.
+              I have Syrian nationality because I born there!. also my mom she's Arabic!
             </Card.Text>
           </Card.Body>
-        </Card></Col>
+        </Card></Col><br/>
 
+
+            {/**this card talk about kurdistan  */}
             <Col xs={{ order: 'first' }}><Card style={{ width: '18rem' }} className="img-wrapper8">
             <Button variant="outline-success"><Card.Title>Kurdistan</Card.Title></Button>
           <Card.Img variant="top" src={Rohan12} className="hover-zoom8"/>
           <Card.Body>  
             <Card.Text>
-              Some quick example text to build on the card title and make up the bulk of
-              the card's content.
+            I'am originally kurdish and I speek the language because my father is kurdish. as  kurdish we don't have a land!, but we have a State in Iraq called Kurdistan
             </Card.Text>
           </Card.Body>
         </Card></Col>
@@ -155,7 +160,7 @@ export default class About extends Component {
 
         <br/>
 
-
+                    {/**this card talk about media */}
                         <Container>
                   <Row>
                     <Col xs={{ order: 'last' }}><Card style={{ width: '18rem' }} className="img-wrapper9">
@@ -167,8 +172,10 @@ export default class About extends Component {
               the card's content.
             </Card.Text>
           </Card.Body>
-        </Card></Col>
+        </Card></Col><br/>
 
+
+                    {/**this card talk about germany */}
                     <Col xs><Card style={{ width: '18rem' }} className="img-wrapper10">
                     <Button variant="outline-warning"><Card.Title>Germany</Card.Title></Button>
           <Card.Img variant="top" src={Rohan16} className="hover-zoom10"/>
@@ -178,8 +185,10 @@ export default class About extends Component {
               the card's content.
             </Card.Text>
           </Card.Body>
-        </Card></Col>
+        </Card></Col><br/>
 
+
+                    {/**this card talk about u s a */}
                     <Col xs={{ order: 'first' }}><Card style={{ width: '18rem' }} className="img-wrapper11">
                     <Button variant="outline-danger"><Card.Title>U.S.A</Card.Title></Button> 
           <Card.Img variant="top" src={Rohan17} className="hover-zoom11"/>
