@@ -31,7 +31,7 @@ export default class About extends Component {
             <Carousel.Item>
               <img className="qy" src= {Rohan6} alt="" />
               <Carousel.Caption>
-                <h3>RUN YOUROWN RACE!</h3>
+                <h3>RUN YOUR OWN RACE!</h3>
               </Carousel.Caption>
             </Carousel.Item>
 
@@ -40,7 +40,7 @@ export default class About extends Component {
             <Carousel.Item>
               <img className="qu" src={Rohan5} alt=""/>
               <Carousel.Caption>
-                <h3>DON'T GEV UP!</h3>
+                <h3>DON'T GIVE UP!</h3>
               </Carousel.Caption>
             </Carousel.Item>
 
@@ -96,7 +96,7 @@ export default class About extends Component {
             <Card.Img variant="top" src={Rohan10} className="hover-zoom4"/>
             <Card.Body>
               <Card.Text>
-               I start to learn coding in 2021 by Horizons. I study Full Sack JavaScript by Teamtreehous and I learnt Databases using SQL also  webs designer and many more from the coding skills!
+              I started learning coding in 2021 by <a href="https://www.horizonsinternational.org/" target="_blank" rel="noreferrer">MEC.MiddleEast</a> I studied Full Stack JavaScript by <a href="https://teamtreehouse.com/home" target="_blank" rel="noreferrer">Teamtreehouse</a> and I learned Databases using SQL, Web Design, and many more about Development skills.
               </Card.Text>
             </Card.Body>
           </Card></Col>
@@ -105,7 +105,7 @@ export default class About extends Component {
 
                 {/**This is card talk about my facourite things! */}
               <Col xs={{ order: 'first' }}><Card style={{ width: '18rem' }} className="img-wrapper5">
-              <Button variant="outline-secondary"><Card.Title>About me</Card.Title></Button>
+              <Button variant="outline-secondary"><Card.Title>Rohan Mesto</Card.Title></Button>
             <Card.Img variant="top" src={Rohan9} className="hover-zoom5"/>
             <Card.Body>
               <Card.Text>
@@ -117,6 +117,8 @@ export default class About extends Component {
           </Container>
 
           <br/>
+          <hr/>
+          <br/>
 
                                {/**this card talk about lebanon */}           
                   <Container>
@@ -126,7 +128,8 @@ export default class About extends Component {
           <Card.Img variant="top" src={Rohan11} className="hover-zoom6"/>
           <Card.Body>
             <Card.Text>
-              I came to Lebanon with my parents in 2013 until now!. I grow up in beirut till 2020 When my parents left me!
+            I came to <a href="https://www.google.com/maps/place/Lebanon/@33.8707613,34.7260061,8z/data=!3m1!4b1!4m5!3m4!1s0x151f17028422aaad:0xcc7d34096c00f970!8m2!3d33.854721!4d35.862285" target="_blank" rel="noreferrer">Lebanon</a> with my parents from 2013 until the present then I grew up here till 2020...
+My parents left me while I'm growing till 2020
             </Card.Text>
           </Card.Body>
         </Card></Col>
@@ -139,7 +142,7 @@ export default class About extends Component {
           <Card.Img variant="top" src={Rohan13} className="hover-zoom7"/>
           <Card.Body>       
             <Card.Text>
-              I have Syrian nationality because I born there!. also my mom she's Arabic!
+            I also have a <a href="https://www.google.com/maps/place/Syria/@34.7988246,36.7581329,7z/data=!3m1!4b1!4m5!3m4!1s0x1518e6dc413cc6a7:0x877546f4882af620!8m2!3d34.802075!4d38.996815" target="_blank" rel="noreferrer">Syrian</a> identity because I was borned there! also my mother is Syrian!
             </Card.Text>
           </Card.Body>
         </Card></Col><br/>
@@ -151,7 +154,7 @@ export default class About extends Component {
           <Card.Img variant="top" src={Rohan12} className="hover-zoom8"/>
           <Card.Body>  
             <Card.Text>
-            I'am originally kurdish and I speek the language because my father is kurdish. as  kurdish we don't have a land!, but we have a State in Iraq called Kurdistan
+            I'm originally Kurdish and I speak the language because my father is Kurdish. as<a href="https://www.bbc.com/news/world-middle-east-29702440" target="_blank" rel="noreferrer">Kurdish</a> we don't have land, but we have a State in Iraq called<a href="https://www.google.com/maps/place/Kurdistan+Region,+Iraq/@36.4103395,44.3871953,7z/data=!4m13!1m7!3m6!1s0x40090675168d57f5:0x18d1cbbe61767ce8!2sKurdistan+Region,+Iraq!3b1!8m2!3d36.4103395!4d44.3871953!3m4!1s0x40090675168d57f5:0x18d1cbbe61767ce8!8m2!3d36.4103395!4d44.3871953" target="_blank" rel="noreferrer"> Kurdistan</a>
             </Card.Text>
           </Card.Body>
         </Card></Col>
@@ -159,7 +162,8 @@ export default class About extends Component {
         </Container>
 
         <br/>
-
+<hr/>
+<br/>
                     {/**this card talk about media */}
                         <Container>
                   <Row>
@@ -168,8 +172,7 @@ export default class About extends Component {
           <Card.Img variant="top" src={Rohan15} className="hover-zoom9"/>
           <Card.Body>
             <Card.Text>
-              Some quick example text to build on the card title and make up the bulk of
-              the card's content.
+            I started in the photography service for six months in the <a href="https://www.facebook.com/ResurrectionChurchBeirut" target="_blank" rel="noreferrer">church!</a>
             </Card.Text>
           </Card.Body>
         </Card></Col><br/>
@@ -181,8 +184,7 @@ export default class About extends Component {
           <Card.Img variant="top" src={Rohan16} className="hover-zoom10"/>
           <Card.Body>         
             <Card.Text>
-              Some quick example text to build on the card title and make up the bulk of
-              the card's content.
+            I learned the German language because I had hoped to go to Germany but had no luck!
             </Card.Text>
           </Card.Body>
         </Card></Col><br/>
@@ -195,8 +197,7 @@ export default class About extends Component {
           <Card.Body>
            
             <Card.Text>
-              Some quick example text to build on the card title and make up the bulk of
-              the card's content.
+            I started learning English by myself!. when I started to go to the <a href="https://www.facebook.com/ResurrectionChurchBeirut" target="_blank" rel="noreferrer">church</a> in 2018 I found a lot of foreigners there so I started to have conversations with them so bet  by bet I got the English language 
             </Card.Text>
           </Card.Body>
         </Card></Col>

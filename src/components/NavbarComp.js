@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import {Navbar,Container,Nav} from 'react-bootstrap'
 import Logo from '../images/logorm.png'
 import {
-BrowserRouter,
+HashRouter,
 Switch,
 Link,
 Route
@@ -14,12 +14,12 @@ import Footer from "./Footer";
 export default class NavBarComp extends Component {
     render() {
         return (
-            <BrowserRouter>
+            <HashRouter>
             <div>
 
             {/**this is the NavBar */}
 
-      <Navbar collapseOnSelect expand="lg" bg="black" variant="dark" >
+      <Navbar collapseOnSelect expand="lg" bg="black" variant="light" >
       <Container>
 
 
@@ -67,7 +67,7 @@ export default class NavBarComp extends Component {
               <Footer />
               </div>
               
-              </BrowserRouter>
+              </HashRouter>
             
           );
         }
